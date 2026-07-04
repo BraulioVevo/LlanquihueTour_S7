@@ -8,7 +8,7 @@
 ---
 
 ## 📘 Descripción general del sistema
-Este proyecto corresponde a la Actividad Formativa de la Semana de la asignatura Desarrollo Orientado a Objetos I. En esta etapa, el sistema de la agencia Llanquihue Tour se ha expandido hacia una versión funcional capaz de gestionar y recorrer de forma dinámica y centralizada sus diversos tipos de servicios turísticos. 
+Este proyecto fue realizado en el IDE IntelliJ, corresponde a la Actividad Formativa de la Semana de la asignatura Desarrollo Orientado a Objetos I. En esta etapa, el sistema de la agencia Llanquihue Tour se ha expandido hacia una versión funcional capaz de gestionar y recorrer de forma dinámica y centralizada sus diversos tipos de servicios turísticos. 
 
 La aplicación destaca por aplicar de forma práctica los siguientes pilares y conceptos avanzados de la programación orientada a objetos (POO):
  Colecciones Polimórficas - Sobrescritura de Métodos (@Override) - Polimorfismo Dinámico - Operador instanceof.
@@ -20,10 +20,10 @@ El código fuente se encuentra organizado de manera modular bajo paquetes espec�
 
 ```text
 📁 src/main/java/
-├── model/       # Clases de dominio y negocio (ServicioTuristico, RutaGastronomica, PaseoLacustre, ExcursionCultural).
-├── data/        # Capa de datos. Aloja 'GestorServicios.java' encargado de inicializar la colección polimórfica de prueba.
+├── model/       # Clases (ServicioTuristico, RutaGastronomica, PaseoLacustre, ExcursionCultural).
+├── data/        # 'GestorServicios.java' encargado de inicializar la colección.
 ├── service/     # Lógica de servicios. Contiene 'ServicioTour.java' para el recorrido polimórfico y uso de instanceof.
-└── ui/          # Capa de usuario. Aloja la clase principal 'Main.java' que ejecuta el despliegue por consola.
+└── ui/          # Aloja la clase principal 'Main.java' que despliegua la información por consola.
 
 ```
 *Debes tener la versión 23 de Java o posterior.
@@ -36,3 +36,13 @@ El código fuente se encuentra organizado de manera modular bajo paquetes espec�
 
 2) Una vez que en la terminal escribe lo siguiente:
    git clone https://github.com/BraulioVevo/LlanquihueTour_S7.git
+
+ - Una vez que se haya clonado el proyecto.
+
+3) Abre la carpeta src, luego ui, ejecuta el Main. 
+    o Abre el proyecto en tu IDE que más te guste.
+
+4) Ejecutar la clase Main.java.
+
+
+   
