@@ -35,4 +35,4 @@ El código fuente se encuentra organizado de manera modular bajo paquetes espec�
 - Haz clic derecho dentro de la carpeta, pulsa el botón 'Abrir en terminal'.
 
 2) Una vez que en la terminal escribe lo siguiente:
-   git clone  
+   git clone https://github.com/BraulioVevo/LlanquihueTour_S7.git
